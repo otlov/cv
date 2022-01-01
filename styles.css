@@ -1,0 +1,64 @@
+
+  body {
+    font-family: "Poppins" , Arial , sans-serif;
+    background-color: #f5f5f5;
+    font-size: 20px;
+    text-align: center;
+    list-style-position: inside;
+  }
+
+  hr {
+
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 0.35em;
+    border-color: #1e90ff;
+    width: 50px;
+
+
+
+  }
+
+  .head_img {
+    height: 230px;
+  }
+
+
+h1 , h2 {
+  color: #1e90ff;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr , td {
+  text-align: left;
+  list-style-position: inside;
+}
+
+li {
+  list-style-type:circle;
+  list-style-image: url(https://img.icons8.com/material-rounded/24/000000/asterisk.png);
+}
+
+.head_bg {
+  background-image: url('web_header.jpeg');
+  background-position: 100%;
+
+
+
+
+/*filter: blur(2px);
+  -webkit-filter: blur(2px);*/
+
+}
+
+.body_bg{
+  background-image: url('site_background.jpg');
+  background-position: 100%;
+  background-repeat:no-repeat;
+  background-size:cover;
+}

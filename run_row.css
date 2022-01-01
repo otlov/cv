@@ -1,0 +1,21 @@
+
+    .marquee {
+    width: 100%;
+    font-size: 20px;
+    line-height: 15px;
+    font-family: "Helvetica", "Spacer", Arial, sans-serif;
+    background-color: dodgerblue;
+	  color: white;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.marquee p {
+    display:block;
+    padding-left: 100%;
+    animation: marquee 25s linear infinite;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
